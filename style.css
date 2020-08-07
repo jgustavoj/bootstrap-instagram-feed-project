@@ -1,3 +1,14 @@
+
+.navbar-brand{
+    font-family: 'Courgette', cursive;
+    }
+
+@font-family{ 'Courgette', cursive;
+src: url(https://fonts.googleapis.com/css2?family=Courgette&display);
+
+}
+
+
 .col-4{
     padding: 1px;
    
@@ -25,6 +36,7 @@ img {
 }
 span{
   float: right;
+  color: gray;
 }
 .container-layout{
   background-color: rgb(228, 228, 228);
@@ -36,16 +48,21 @@ span{
 
 .postcard-input [type="text"]{
   border: none;
+  margin-left: 30px;
+  padding: 0px;
 
 }
 
-.postcard-input{
-  display: flex;
-  margin-left: 15px ;
-
-}
 .comment {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
 }
+.postcard-input{
+  display: flex;
+  align-items: center;
+  margin-left: 0px ;
+
+}
+
